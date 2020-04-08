@@ -28,7 +28,36 @@ void testHasAOne() {
 void testByteToAscii() {
   // TODO: Add "exhaustive" test cases.
   // It should show that all inputs (0-9) produce the correct result ('0'-'9')
-  Serial.println("WRITE TEST CASES!");    
+  if(byteToAscii(0) == '0'){
+    Serial.println("passed 0");
+  }
+  if(byteToAscii(1) == '1'){
+    Serial.println("passed 1");
+  }
+  if(byteToAscii(2) == '2'){
+    Serial.println("passed 2");
+  }
+  if(byteToAscii(3) == '3'){
+    Serial.println("passed 3");
+  }
+  if(byteToAscii(4) == '4'){
+    Serial.println("passed 4");
+  }
+  if(byteToAscii(5) == '5'){
+    Serial.println("passed 5");
+  }
+  if(byteToAscii(6) == '6'){
+    Serial.println("passed 6");
+  }
+  if(byteToAscii(7) == '7'){
+    Serial.println("passed 7");
+  }
+  if(byteToAscii(8) == '8'){
+    Serial.println("passed 8");
+  }
+  if(byteToAscii(9) == '9'){
+    Serial.println("passed 9");
+  }
 }
 
 void testInt8ToInt() {
